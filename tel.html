@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone App</title>
+    <link rel="stylesheet" href="tel.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Telephone App</h1>
+        
+        <div class="input-group">
+            <input type="text" id="phoneNumber" placeholder="Enter phone number">
+            <button onclick="addPhone()">Add</button>
+            <button id="rev" onclick="removePhone()">Remove</button>
+            <button id="dial" onclick="dialPhone()">Dial</button>
+        </div>
+
+        <h3>Saved Phone Numbers:</h3>
+        <ul id="phoneList"></ul>
+
+        <h3>Call Log:</h3>
+        <div id="callLog"></div>
+    </div>
+
+    <script src="tel.js"></script>
+</body>
+</html>

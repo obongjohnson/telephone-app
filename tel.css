@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+#dial{
+    background-color: green;
+    color: white;
+    
+}
+
+#dial:hover{
+    background-color: gray;
+    
+    
+}
+
+
+#rev{
+    background-color: red;
+    color: white;
+    
+}
+
+#rev:hover{
+    background-color: gray;
+    
+    
+}
+
+input {
+    padding: 5px;
+    width: 180px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#callLog {
+    background: #ddd;
+    padding: 10px;
+    min-height: 50px;
+    border-radius: 5px;
+}
